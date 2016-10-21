@@ -8,4 +8,8 @@ setup(name='factbook',
       author_email='rsabb24@gmail.com',
       license='MIT',
       packages=['factbook'],
+      include_package_data=True,
+      install_requires=[
+          'requests',
+      ],
       zip_safe=False)
