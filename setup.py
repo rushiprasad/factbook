@@ -10,6 +10,7 @@ setup(name='factbook',
       packages=['factbook'],
       include_package_data=True,
       install_requires=[
+          'beautifulsoup4',
           'requests',
       ],
       zip_safe=False)
